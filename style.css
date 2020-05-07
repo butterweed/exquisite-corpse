@@ -1,0 +1,13 @@
+.main{
+    width: 30vw;
+    margin: 20px auto 0 auto;
+    /* padding: 50px */
+
+}
+
+@media(max-width: 800px){
+   .main{
+        width: 90vw;
+       
+   }
+}
