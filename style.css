@@ -1,61 +1,20 @@
 .main{
-    width: 33vw;
-    margin: 20px auto 0 auto;
-    /* padding: 50px */
-}
-
-.main2{
-  width: 30vw;
+  width: 33vw;
   margin: 20px auto 0 auto;
   /* padding: 50px */
 }
 
 @media(max-width: 800px){
-   .main{
-      width: 90vw;
-   }
+  .main{
+    width: 90vw;
+  }
 
-   .main2{
-    width: 70vw;
-   }
 }
 
 .main .carousel-control-prev-icon {
-  background-image: url("images/icons/prev-icon.png");
+  background-image: url(images/icons/Left_Arrow-03.svg);
 }
 
 .main .carousel-control-next-icon {
-  background-image: url("images/icons/next-icon.png");
-}
-
-.separator {
-  height: 20px;
-}
-
-
-.main2{
-  margin-right: 485px;
-}
-.main2 .carousel-control-prev-icon {
-  background-image: url("images/icons/prev-icon.png");
-  position: relative;
-  right: 20px;
-}
-
-.main2 .carousel-control-next-icon {
-  background-image: url("images/icons/next-icon.png");
-  position: relative;
-  left: 20px;
-}
-
-.main2 .carousel-control-prev, .main2 .carousel-control-next{
-  opacity: 1;
-}
-
-.main2 .carousel{
-  padding: 0 30px;
-}
-
-#carousel4, #carousel5, #carousel6 {
-  width: 465px;
+  background-image: url(images/icons/Right_Arrow-03-02.svg)
 }
