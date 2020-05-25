@@ -1,15 +1,13 @@
 .main{
-  width: 33vw;
-  margin: 20px auto 0 auto;
-  /* padding: 50px */
+  width: 400px;
+  margin: auto;
 }
 
-@media(max-width: 800px){
+/* @media(max-width: 800px){
   .main{
     width: 90vw;
   }
-
-}
+} */
 
 .main .carousel-control-prev-icon {
   background-image: url(images/icons/Left_Arrow-03.svg);
